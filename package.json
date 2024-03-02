@@ -1,0 +1,20 @@
+{
+  "name": "practice-stripe",
+  "version": "1.0.0",
+  "description": "stripe payment",
+  "type": "commonjs",
+  "main": "st.js",
+  "scripts": {
+    "test": "server.cjs",
+    "start": "nodemon server.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0",
+    "stripe": "^14.11.0"
+  }
+}
